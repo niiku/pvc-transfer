@@ -42,7 +42,7 @@ objects:
         dockerfilePath: docker/Dockerfile.rhel7
         from:
           kind: ImageStreamTag
-          name: rhel:latest
+          name: rhel7:latest
           namespace: openshift
       type: Docker
     successfulBuildsHistoryLimit: 5
