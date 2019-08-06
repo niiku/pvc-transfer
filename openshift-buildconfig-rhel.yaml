@@ -35,7 +35,7 @@ objects:
     source:
       contextDir: docker
       git:
-        uri: ${GIRURI}
+        uri: ${GITURI}
       type: Git
     strategy:
       dockerStrategy:
