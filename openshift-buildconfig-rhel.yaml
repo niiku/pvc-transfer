@@ -39,7 +39,7 @@ objects:
       type: Git
     strategy:
       dockerStrategy:
-        dockerfilePath: docker/Dockerfile.rhel7
+        dockerfilePath: Dockerfile.rhel7
         from:
           kind: ImageStreamTag
           name: rhel7:latest
