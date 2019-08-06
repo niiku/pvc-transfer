@@ -6,7 +6,7 @@ parameters:
   displayName: Git URI
   description: location of source-code
   required: true
-  value: https://github.com/edseymour/pvc-transfer.git
+  value: https://github.com/niiku/pvc-transfer.git
 - description: Webhook secret used to in webhook build triggers
   displayName: Webhook Secret
   from: '[a-zA-Z0-9]{8}'
