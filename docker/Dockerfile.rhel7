@@ -1,0 +1,8 @@
+FROM registry.redhat.io/rhel7-minimal
+
+RUN yum install rsync -y && yum clean all -y 
+
+VOLUME /srcd
+VOLUME /dest
+
+CMD rsync -apvH /srcd/ /dest/
